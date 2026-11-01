@@ -1,0 +1,9 @@
+:root { --fundo: #fff8f8; --texto: #2b1a1e; --destaque: #8c1d40; }
+@media (prefers-color-scheme: dark) {
+  :root { --fundo: #1e1416; --texto: #f3dfe2; --destaque: #ffb1c4; }
+}
+body { margin: 0; background: var(--fundo); color: var(--texto); font: 17px/1.6 system-ui, sans-serif; }
+main { max-width: 42rem; margin: 0 auto; padding: 2rem 1rem; }
+h1, h2 { color: var(--destaque); line-height: 1.25; }
+a { color: var(--destaque); }
+.data, .contato { opacity: 0.75; }
